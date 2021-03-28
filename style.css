@@ -2,15 +2,41 @@ body {
     background-color: #3F3D3D;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family: 'Arial', sans-serif;
     color: #FFFF;
 }
 
 nav {
-    height: 20%;
     margin: 20px;
+}
+
+a {
+    color: #FFFF;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: #A3A3A3
+}  
+
+img {
+    margin-left: 20px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
 }
 
 #fondoCeleste {
@@ -27,25 +53,4 @@ nav {
 
 #fondoRojo {
     background-color: #FA6337;
-}
-
-a {
-    color: #FFFF;
-    font-weight: bolder;
-    text-decoration: none;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-a:hover {
-    color: #A3A3A3
-}
-
-.centrado {
-    text-align: center;
-}
-
-h1,
-h2 {
-    margin: 0px;
 }
